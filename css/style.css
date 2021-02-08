@@ -23,8 +23,10 @@
 } */
 
 .navbar {
-    z-index: 1;
-    position: sticky;
+    /* z-index: 1000; */
+    position: fixed;
+    top: 0; 
+    width: 100%; 
 }
 
 .navbar-brand img {
